@@ -1,0 +1,62 @@
+*{
+            padding: 0;
+            margin: 0;
+        }
+
+        body{
+          background-color: write;
+          
+        }
+        .wrapper{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        .calculator{
+            background: grey;
+            padding: 8px;
+            box-shadow: blue;
+
+        }
+
+        .textView{
+            width: 358px;
+            font-weight: 35px;
+            font-weight: bold;
+            padding: 5px;
+            font-family: elephant;
+            font-size: 25px;
+            text-align: right;
+            color: purple;
+            background-color: black;
+            color: red;
+
+        }
+
+        .button{
+            width: 80px;
+            height: 70px;
+            font-size: 23px;
+            font-family: elephant;
+            margin: 6px;
+            border-color: red;
+            cursor: pointer;
+            color: red;
+            background-color: black;
+
+        }
+
+        .equal{
+            height: 149px;
+        }
+
+        .equal:hover{
+            background-color: black;
+            color: white;
+        }
+
+        .zero{
+            width: 170px;
+        }
